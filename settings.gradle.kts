@@ -21,4 +21,12 @@ dependencyResolutionManagement {
 
 rootProject.name = "Maps"
 include(":app")
-include(":features:main-map")
+include(":features:main-map-impl")
+include(":features:search-bar-impl")
+include(":features:main-map-api")
+include(":features:search-bar-api")
+include(":navigation")
+include(":di")
+include(":core-utils")
+include(":features:details-dialog-api")
+include(":details-dialog-impl")
